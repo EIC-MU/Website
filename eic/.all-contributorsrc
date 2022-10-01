@@ -1,0 +1,57 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sumana2001",
+      "name": "Sumana Basu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63084088?v=4",
+      "profile": "https://sumana.live/",
+      "contributions": [
+        "infra",
+        "code"
+      ]
+    },
+    {
+      "login": "Aniket762",
+      "name": "Aniket Pal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67703407?v=4",
+      "profile": "https://aniket.live",
+      "contributions": [
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "test",
+        "code"
+      ]
+    },
+    {
+      "login": "debasish-creator",
+      "name": "Debasish MIshra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76249530?v=4",
+      "profile": "https://github.com/debasish-creator",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Bartek532",
+      "name": "Bartosz Zagrodzki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57185551?v=4",
+      "profile": "http://bartek532.github.io/portfolio",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "webwiz-portfolio",
+  "projectOwner": "Aniket762",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
