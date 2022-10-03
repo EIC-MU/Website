@@ -1,6 +1,6 @@
 {
-  "name": "Webwiz",
-  "short_name": "Webwiz",
+  "name": "eicmu",
+  "short_name": "eicmu",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone",
@@ -14,12 +14,12 @@
       "purpose": "any maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "favicon-16x16.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo256.png",
+      "src": "favicon-32x32.png",
       "type": "image/png",
       "sizes": "256x256"
     },
@@ -34,5 +34,4 @@
       "sizes": "512x512"
     }
   ]
-  
 }

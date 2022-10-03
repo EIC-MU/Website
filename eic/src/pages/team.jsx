@@ -4,12 +4,7 @@ import teamData from './teamData';
 // import teamDataPostHolders from './teamData';
 import { Grid } from '@material-ui/core';
 
-
-
-
-
-function createCard(teamData)
-{
+function createCard(teamData) {
   return (
     <Grid item lg={this} md={4} sm={6} xs={12}>
       <Card
@@ -22,29 +17,27 @@ function createCard(teamData)
         instagram={teamData.instagram}
       />
     </Grid>
-
   );
 }
 
-function team()
-{
+function team() {
   return (
-    <div className='App'>
+    <div className="App">
       <h1>TEAM</h1>
-      <h2>Executive Body 2021-22</h2>
-      <Grid lg={12} item container spacing={3} align='center'>
+      <h2>Executive Body 2022 - 23</h2>
+      <Grid lg={12} item container spacing={3} align="center">
         {teamData.executive.map(createCard, 4)}
       </Grid>
-      <h2>Founding Members</h2>
-      <Grid lg={12} item container spacing={3} align='center'>
-        {teamData.founding.map(createCard, 4)}
+      <h2>Mentors</h2>
+      <Grid lg={12} item container spacing={3} align="center">
+        {teamData.mentors.map(createCard, 4)}
       </Grid>
-      <h2>Team Webwiz</h2>
-      <Grid lg={12} item container spacing={3} align='center'>
-        {teamData.team.map(createCard, 3)}
+      <h2>Founding Members</h2>
+      <Grid lg={12} item container spacing={3} align="center">
+        {teamData.founding.map(createCard, 4)}
       </Grid>
     </div>
   );
 }
 
-export default team
+export default team;

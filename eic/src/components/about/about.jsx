@@ -21,7 +21,8 @@ const LiteCard = props => {
       className="liteCard"
       style={{
         backgroundImage: `url("${props.imageUrl}")`,
-        backgroundColor: '#F6F6F6',
+        // backgroundColor: '#F6F6F6',
+        backgroundColor: '#f2ca29',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         color: props.color,
@@ -39,24 +40,22 @@ function about() {
     <div id="about">
       <h1>#About Us</h1>
       <div className="underline"></div>
-      <Heading>Not just any other technical club</Heading>
+      <Heading>Not just any other E-Cell</Heading>
       <div id="cards">
         <LiteCard
-          title="Made for students"
-          description="If you are crazy about development we are crazy about you. Any other barrier that you think exists, DOESN'T."
-
+          title="What Are We?"
+          description="It is a student-led forum dedicated to promoting the entrepreneurial ecosystem and the start-up culture on campus. Based on the belief that innovation and entrepreneurship are mutually beneficial, the cell's goal is to instil in the student community at the university an inventive and entrepreneurial mindset."
           color="#000"
         />
         <LiteCard
-          title="Development"
-          description="We focus on Design as much as developing. At last the eye sees it first."
-
+          title="What We Do?"
+          description="the cell aspires to cultivate and encourage the entrepreneurial spirit by assisting young and gifted brains by identifying ideas and then nurture them. One of the key tasks is to give opportunities and help to students who are interested in pursuing a career in entrepreneurship. The cell always works towards assisting aspiring businesses and creative thinkers."
           color="#000"
         />
         <LiteCard
-          title="Practical Guide"
-          description="We guide you everytime you need us. Literally anywhere you want to go we have a guide for that."
-
+          title="Why Us?"
+          description="The team managing the cell aspires to cultivate and encourage the entrepreneurial spirit by assisting young and gifted brains by identifying ideas and then nurture them. We aspire to give opportunities and help to students who are interested in pursuing a career in entrepreneurship.
+          The cell always works towards assisting aspiring businesses and creative thinkers."
           color="#000"
         />
       </div>

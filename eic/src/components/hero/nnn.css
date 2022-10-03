@@ -1,0 +1,13 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+#heroBg {
+  /* position: fixed; */
+  z-index: -1;
+  width: 100%;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
