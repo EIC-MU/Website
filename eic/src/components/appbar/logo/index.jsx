@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import logo from "../../../assets/images/logo.ico";
+import React from 'react';
+import styled from 'styled-components';
+import logo from '../../../assets/images/2.png';
 
 const LogoWrapper = styled.div`
   display: flex;
@@ -8,8 +8,8 @@ const LogoWrapper = styled.div`
 `;
 
 const LogoImg = styled.div`
-  width: 70px;
-  height: 60px;
+  width: 220px;
+  height: 220px;
 
   img {
     width: 100%;
@@ -21,7 +21,7 @@ export function Logo(props) {
   return (
     <LogoWrapper>
       <LogoImg>
-        <img src={logo} alt="Webwiz logo" />
+        <img src={logo} alt="eic logo" />
       </LogoImg>
     </LogoWrapper>
   );
